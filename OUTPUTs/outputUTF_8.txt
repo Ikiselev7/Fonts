@@ -1,0 +1,28 @@
+dx = 0
+dy = 0
+k = 10
+n1 = 100
+n2 = 30
+
+S = "AA"
+for i = 1 to k
+{
+scale 1,1
+beginpolygon S+i
+scale 1.019367991845056,1.019367991845056
+amove -22.37079796743393+(-25.0+dx)/1.019367991845056, (-25.0+dy)/1.019367991845056
+ttfont "GOST Type A", 45,0,3
+ttstring "Конец"
+endpolygon
+
+lamp n1
+speed 100,10
+fill S+i,40,45*i
+fill S+i,0,0
+
+lamp n2
+speed 100,15
+fill S+i,20,45*i+45
+fill S+i,0,0
+
+}

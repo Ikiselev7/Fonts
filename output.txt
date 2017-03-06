@@ -1,0 +1,120 @@
+dx = 0
+dy = 0
+k = 10
+n1 = 100
+n2 = 30
+
+S = "AA"
+for i = 1 to k
+{
+scale 1,1
+beginpolygon S+i
+scale 1.019367991845056,1.019367991845056
+amove -17.61105371904373+(-25.0+dx)/1.019367991845056, (-25.0+dy)/1.019367991845056
+ttfont "GOST Type A", 45,0,3
+ttstring "Коне"
+endpolygon
+
+lamp n1
+speed 100,10
+fill S+i,40,45*i
+fill S+i,0,0
+
+lamp n2
+speed 100,15
+fill S+i,20,45*i+45
+fill S+i,0,0
+
+}
+
+S = "AB"
+for i = 1 to k
+{
+scale 1,1
+beginpolygon S+i
+scale 1.0026570411590716,1.0026570411590716
+amove -23.444096636831762+(0.0+dx)/1.0026570411590716, (0.0+dy)/1.0026570411590716
+ttfont "GOST Type B", 61,0,3
+ttstring "USB"
+endpolygon
+
+lamp n1
+speed 100,10
+fill S+i,40,45*i
+fill S+i,0,0
+
+lamp n2
+speed 100,15
+fill S+i,20,45*i+45
+fill S+i,0,0
+
+}
+
+S = "AC"
+for i = 1 to k
+{
+scale 1,1
+beginpolygon S+i
+scale 1.019367991845056,1.019367991845056
+amove -21.656836330175402+(25.0+dx)/1.019367991845056, (30.0+dy)/1.019367991845056
+ttfont "GOST Type A", 36,0,3
+ttstring "Привет"
+endpolygon
+
+lamp n1
+speed 100,10
+fill S+i,40,45*i
+fill S+i,0,0
+
+lamp n2
+speed 100,15
+fill S+i,20,45*i+45
+fill S+i,0,0
+
+}
+
+S = "AD"
+for i = 1 to k
+{
+scale 1,1
+beginpolygon S+i
+scale 1.019367991845056,1.019367991845056
+amove -14.445352473199367+(30.0+dx)/1.019367991845056, (-25.0+dy)/1.019367991845056
+ttfont "GOST Type B", 27,0,3
+ttstring "world"
+endpolygon
+
+lamp n1
+speed 100,10
+fill S+i,40,45*i
+fill S+i,0,0
+
+lamp n2
+speed 100,15
+fill S+i,20,45*i+45
+fill S+i,0,0
+
+}
+
+S = "AE"
+for i = 1 to k
+{
+scale 1,1
+beginpolygon S+i
+scale 1.019367991845056,1.019367991845056
+amove -21.180861905336382+(-25.0+dx)/1.019367991845056, (30.0+dy)/1.019367991845056
+ttfont "GOST Type A", 51,0,3
+ttstring "Start"
+endpolygon
+
+lamp n1
+speed 100,10
+fill S+i,40,45*i
+fill S+i,0,0
+
+lamp n2
+speed 100,15
+fill S+i,20,45*i+45
+fill S+i,0,0
+
+}

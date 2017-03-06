@@ -1,0 +1,5 @@
+﻿
+0.0 0.0 GOST Type B 20.0 USB
+25.0 30.0 GOST Type A 12.0 Привет
+30.0 -25.0 GOST Type B 9.0 world
+-25.0 30.0 GOST Type A 17.0 Start
